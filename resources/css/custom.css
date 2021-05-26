@@ -1,0 +1,116 @@
+/* .entry-content,
+.block-editor-block-list__layout {
+    h1 {
+        @apply text-2xl;
+    }
+    h2 {
+        @apply text-xl;
+    }
+    h3 {
+        @apply text-lg;
+    }
+    p,
+    ul,
+    ol {
+        a {
+            @apply text-blue-500 underline;
+            &:hover {
+                @apply no-underline;
+            }
+        }
+        @apply mb-8;
+    }
+    ul {
+        li {
+            @apply list-disc list-inside;
+        }
+    }
+    ol {
+        li {
+            @apply list-decimal list-inside;
+        }
+    }
+} */
+
+.mp-header-logo {
+    /* --tw-bg-opacity: 0.2;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity)); */
+}
+
+.background-cover,
+.slide {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://meierpartners.com/wp-content/uploads/2021/05/Opening1_Oxfordshire_desktop.jpg);
+}
+
+
+/* .slide {
+    height: 100vh;
+}
+
+.slide--1 {
+    background-image: url("https://meierpartners.com/wp-content/uploads/2021/05/Opening2_Jubilee_desktop.jpg");
+}
+
+.slide--2 {
+    background-image: url("https://meierpartners.com/wp-content/uploads/2021/05/Opening3_Barcelona_desktop.jpg");
+}
+
+.slide--3 {
+    background-image: url("https://meierpartners.com/wp-content/uploads/2021/05/Opening4_Douglas_desktop.jpg");
+} */
+
+@media (max-width: 680px) {
+    .background-cover,
+    .slide {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://meierpartners.com/wp-content/uploads/2021/05/Opening1_Oxfordshire_phone.jpg");
+    }
+    .slide {
+        height: 100vh;
+    }
+    .slide--1 {
+        background-image: url("https://meierpartners.com/wp-content/uploads/2021/05/Opening2_Jubilee_phone.jpg");
+    }
+    .slide--2 {
+        background-image: url("https://meierpartners.com/wp-content/uploads/2021/05/Opening3_Barcelona_phone.jpg");
+    }
+    .slide--3 {
+        background-image: url("https://meierpartners.com/wp-content/uploads/2021/05/Opening4_Douglas_phone.jpg");
+    }
+}
+
+.mp-header-logo {
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url('https://meierpartners.com/wp-content/uploads/2021/05/pixel-header-fb-2.png');
+    background-size: contain;
+}
+
+@font-face {
+    font-family: "akzidenz-grotesk";
+    src: url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "akzidenz-grotesk-medium";
+    src: url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+body {
+    font-family: "akzidenz-grotesk";
+}
+
+.n2-section-smartslider-custom {
+    transform: translateY(-24px);
+    z-index: 1;
+}
