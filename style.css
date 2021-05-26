@@ -1,0 +1,50 @@
+/*
+Theme Name: TailPress
+Theme URI: https://github.com/jeffreyvr/tailpress
+Author: Kayla Brackson
+Author URI: https://colorincode.io
+Description: This is a sub theme of tailwind CSS and wordpress using the tailpress theme. 
+Version: 0.0.9
+License: GNU GPL version 2
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tailpress
+*/
+
+.mp-header-logo {
+    position: relative;
+    z-index: 4;
+    background: rgba(255, 255, 255, 0.5) !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+	height: 80px;
+    transition: background-color 0.5s ease;
+}
+
+@font-face {
+    font-family: "akzidenz-grotesk";
+    src: url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "akzidenz-grotesk-medium";
+    src: url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+body {
+    font-family: "akzidenz-grotesk";
+}
+
+.n2-section-smartslider-custom {
+    transform: translateY(-64px);
+    z-index: 1;
+}
+
+#primary-menu {
+    z-index: 3;
+}
